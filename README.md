@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portofolio Web — [Faris Edrik P / rissss21]
 
 Selamat datang di portofolio web pribadi saya! 🌐  
@@ -59,3 +60,6 @@ Saya seorang Developer yang suka bikin aplikasi web ringan dengan tampilan moder
 
 
 [1]: https://github.com/rissss21/portofolio "GitHub - rissss21/portofolio"
+=======
+# portofolio
+>>>>>>> 69215d06af9dfff9d5536cefa36c1d74bc6ca7ad
