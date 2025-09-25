@@ -1,6 +1,7 @@
 import "remixicon/fonts/remixicon.css";
 import Dock from "./Dock/Dock";
-import { VscHome, VscArchive, VscAccount } from "react-icons/vsc";
+import { VscHome, VscArchive, VscAccount} from "react-icons/vsc";
+import { RiGithubFill, RiInstagramFill, RiLinkedinFill } from "react-icons/ri";
 
 const Footer = () => {
   const items = [
@@ -21,9 +22,15 @@ const Footer = () => {
 
         {/* Ikon Sosmed - di tengah di mobile */}
         <div className="flex gap-3 order-2 md:order-none">
-          <a href="https://github.com/rissss21"><i className="ri-github-fill ri-2x"></i></a>
-          <a href="https://www.instagram.com/farisedrikprayoga/"><i className="ri-instagram-fill ri-2x"></i></a>
-          <a href="https://www.youtube.com/@FarisEdrikPrayoga"><i className="ri-youtube-fill ri-2x"></i></a>
+          <a href="https://github.com/SetiaOnce" target="_blank" rel="noopener noreferrer">
+            <RiGithubFill size={28} />
+          </a>
+          <a href="https://www.instagram.com/yogasetiaonce" target="_blank" rel="noopener noreferrer">
+            <RiInstagramFill size={28} />
+          </a>
+          <a href="https://www.linkedin.com/in/i-gede-yoga-setiawan-0349b6250" target="_blank" rel="noopener noreferrer">
+            <RiLinkedinFill size={28} />
+          </a>
         </div>
 
         {/* Dock - paling bawah di mobile */}

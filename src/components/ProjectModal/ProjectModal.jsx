@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FiX, FiGithub } from 'react-icons/fi'; // Install react-icons jika belum: npm install react-icons
+import { FiX, FiGithub, FiExternalLink } from 'react-icons/fi'; // Install react-icons jika belum: npm install react-icons
 
 const ProjectModal = ({ isOpen, onClose, project }) => {
   // State untuk mengontrol animasi penutupan
@@ -46,7 +46,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
         <img 
           src={project.image} 
           alt={project.title} 
-          className="w-full h-56 object-cover rounded-t-2xl"
+          className="w-full h-50 object-cover rounded-t-2xl"
         />
 
         <div className="p-6 flex flex-col gap-4">
@@ -71,8 +71,8 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
                 rel="noopener noreferrer"
                 className="mt-4 inline-flex items-center justify-center gap-2 font-semibold bg-violet-600 p-3 px-5 rounded-full w-full cursor-pointer border border-transparent hover:bg-violet-700 transition-colors"
             >
-                <FiGithub />
-                <span>Source Code</span>
+                <FiExternalLink />
+                <span>Link Project</span>
             </a>
         </div>
       </div>

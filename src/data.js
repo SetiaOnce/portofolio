@@ -6,235 +6,305 @@ const Image = {
 
 export default Image;
 
-import Tools1 from "/assets/tools/vscode.png";
-import Tools2 from "/assets/tools/reactjs.png";
-import Tools3 from "/assets/tools/nextjs.png";
-import Tools4 from "/assets/tools/tailwind.png";
-import Tools5 from "/assets/tools/bootstrap.png";
-import Tools6 from "/assets/tools/js.png";
-import Tools7 from "/assets/tools/nodejs.png";
-import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/ai.png";
-import Tools10 from "/assets/tools/canva.png";
-import Tools11 from "/assets/tools/figma.png";
-import Tools12 from "/assets/tools/kotlin.png";
-import Tools13 from "/assets/tools/firebase.png";
-import Tools14 from "/assets/tools/html.png";
-import Tools15 from "/assets/tools/css.png";
-import Tools16 from "/assets/tools/ts.png";
-import Tools17 from "/assets/tools/php.png";
-import Tools18 from "/assets/tools/vite.png";
-import Tools19 from "/assets/tools/mysql.png";
-
+import iconvscode from "/assets/tools/vscode.png";
+import iconbootstrap from "/assets/tools/bootstrap.png";
+import iconjavascript from "/assets/tools/js.png";
+import iconjquery from "/assets/tools/jquery.png";
+import iconnodejs from "/assets/tools/nodejs.png";
+import icongithub from "/assets/tools/github.png";
+import iconcanva from "/assets/tools/canva.png";
+import iconhtml from "/assets/tools/html.png";
+import iconcss from "/assets/tools/css.png";
+import iconphp from "/assets/tools/php.png";
+import iconpostgresql from "/assets/tools/posgresql.png";
+import iconmysql from "/assets/tools/mysql.png";
+import iconlaravel from "/assets/tools/laravel.png";
+import iconphotoshop from "/assets/tools/photoshop.png";
+import iconpython from "/assets/tools/python.png";
+import icondjango from "/assets/tools/django.png";
+import iconultralytics from "/assets/tools/ultralytics.png";
+import iconopencv from "/assets/tools/opencv.png";
+import iconpytorch from "/assets/tools/pytorch.png";
+import iconleaflet from "/assets/tools/leaflet-logo.png";
 
 export const listTools = [
+  // =========================
+  // 1. Editor & Repository
+  // =========================
   {
     id: 1,
-    gambar: Tools1,
+    gambar: iconvscode,
     nama: "Visual Studio Code",
     ket: "Code Editor",
     dad: "100",
   },
   {
     id: 2,
-    gambar: Tools2,
-    nama: "React JS",
-    ket: "Framework",
+    gambar: icongithub,
+    nama: "GitHub",
+    ket: "Repository",
     dad: "200",
   },
+
+  // =========================
+  // 2. Frontend Development
+  // =========================
   {
     id: 3,
-    gambar: Tools3,
-    nama: "Next JS",
-    ket: "Framework",
+    gambar: iconhtml,
+    nama: "HTML",
+    ket: "Markup Language",
     dad: "300",
   },
   {
     id: 4,
-    gambar: Tools4,
-    nama: "Tailwind CSS",
-    ket: "Framework",
+    gambar: iconcss,
+    nama: "CSS",
+    ket: "Styling Language",
     dad: "400",
   },
   {
     id: 5,
-    gambar: Tools5,
-    nama: "Bootstrap",
-    ket: "Framework",
+    gambar: iconjavascript,
+    nama: "JavaScript",
+    ket: "Programming Language",
     dad: "500",
   },
   {
     id: 6,
-    gambar: Tools6,
-    nama: "Javascript",
-    ket: "Language",
+    gambar: iconjquery,
+    nama: "jQuery",
+    ket: "JavaScript Library",
     dad: "600",
   },
   {
     id: 7,
-    gambar: Tools7,
-    nama: "Node JS",
-    ket: "Javascript Runtime",
+    gambar: iconbootstrap,
+    nama: "Bootstrap",
+    ket: "CSS Framework",
     dad: "700",
   },
+
+  // =========================
+  // 3. Backend Development
+  // =========================
   {
     id: 8,
-    gambar: Tools8,
-    nama: "Github",
-    ket: "Repository",
+    gambar: iconphp,
+    nama: "PHP",
+    ket: "Programming Language",
     dad: "800",
   },
   {
     id: 9,
-    gambar: Tools9,
-    nama: "Adobe Illustrator",
-    ket: "Design App",
+    gambar: iconlaravel,
+    nama: "Laravel",
+    ket: "PHP Framework",
     dad: "900",
   },
   {
     id: 10,
-    gambar: Tools10,
-    nama: "Canva",
-    ket: "Design App",
+    gambar: iconnodejs,
+    nama: "Node.js",
+    ket: "JavaScript Runtime",
     dad: "1000",
   },
   {
     id: 11,
-    gambar: Tools11,
-    nama: "Figma",
-    ket: "Design App",
+    gambar: iconpython,
+    nama: "Python",
+    ket: "Programming Language",
     dad: "1100",
   },
   {
     id: 12,
-    gambar: Tools12,
-    nama: "Kotlin",
-    ket: "Language",
+    gambar: icondjango,
+    nama: "Django",
+    ket: "Python Framework",
     dad: "1200",
   },
+
+  // =========================
+  // 4. Database
+  // =========================
   {
     id: 13,
-    gambar: Tools13,
-    nama: "Firebase",
-    ket: "Framework",
+    gambar: iconmysql,
+    nama: "MySQL",
+    ket: "Relational Database",
     dad: "1300",
   },
   {
     id: 14,
-    gambar: Tools14,
-    nama: "HTML",
-    ket: "Language",
+    gambar: iconpostgresql,
+    nama: "PostgreSQL",
+    ket: "Relational Database",
     dad: "1400",
   },
+
+  // =========================
+  // 5. AI & Computer Vision
+  // =========================
   {
     id: 15,
-    gambar: Tools15,
-    nama: "CSS",
-    ket: "Language",
+    gambar: iconpytorch,
+    nama: "PyTorch",
+    ket: "Deep Learning Framework",
     dad: "1500",
   },
   {
     id: 16,
-    gambar: Tools16,
-    nama: "TypeScript",
-    ket: "Language",
+    gambar: iconopencv,
+    nama: "OpenCV",
+    ket: "Computer Vision Library",
     dad: "1600",
   },
   {
     id: 17,
-    gambar: Tools17,
-    nama: "PHP",
-    ket: "Language",
+    gambar: iconultralytics,
+    nama: "Ultralytics",
+    ket: "Vision AI Toolkit (YOLO)",
     dad: "1700",
   },
+
+  // =========================
+  // 6. Design Tools
+  // =========================
   {
     id: 18,
-    gambar: Tools18,
-    nama: "Vite",
-    ket: "Framework",
+    gambar: iconphotoshop,
+    nama: "Photoshop",
+    ket: "Graphic Design",
     dad: "1800",
   },
   {
     id: 19,
-    gambar: Tools19,
-    nama: "MySql",
-    ket: "Framework",
+    gambar: iconcanva,
+    nama: "Canva",
+    ket: "Design Tool",
     dad: "1900",
+  },
+  // =========================
+  // 6. Design Tools
+  // =========================
+  {
+    id: 18,
+    gambar: iconleaflet,
+    nama: "Leaflet",
+    ket: "Geolocation",
+    dad: "1800",
   },
 ];
 
-import Proyek1 from "/assets/proyek/proyek1.jpg";
-import Proyek2 from "/assets/proyek/proyek2.jpg";
-import Proyek3 from "/assets/proyek/proyek3.jpg";
-import Proyek4 from "/assets/proyek/proyek4.jpg";
-import Proyek5 from "/assets/proyek/proyek5.jpg";
-import Proyek6 from "/assets/proyek/proyek6.jpg";
+
+import Proyek1 from "/assets/proyek/Smartcampus.jpg";
+import Proyek2 from "/assets/proyek/e-library.jpg";
+import Proyek3 from "/assets/proyek/asset-management.jpg";
+import Proyek4 from "/assets/proyek/rental.jpg";
+import Proyek5 from "/assets/proyek/trackingtaruna.jpg";
+import Proyek6 from "/assets/proyek/portalblu.jpg";
+import Proyek7 from "/assets/proyek/railroad.jpg";
+import Proyek8 from "/assets/proyek/timbangan.jpg";
+import Proyek9 from "/assets/proyek/streamingcctv.jpg";
 
 export const listProyek = [
   {
     id: 1,
     image: Proyek1,
-    title: "AIS Detection App",
-    subtitle: "A mobile application powered by Artificial Intelligence...",
-    fullDescription:"A mobile application powered by Artificial Intelligence and Machine Learning, developed to assist in the early detection of Adolescent Idiopathic Scoliosis (AIS). By analyzing patient data and patterns, the app provides predictions that can help doctors and patients take preventive measures. This project demonstrates the role of AI in modern healthcare by improving accuracy, accessibility, and efficiency in medical diagnosis.",
+    title: "Portal SmartCampus",
+    subtitle: "Portal SmartCampus PPI Madiun & POLTRADA Bali adalah sistem ...",
+    fullDescription:"Portal SmartCampus PPI Madiun & POLTRADA Bali adalah sistem terintegrasi yang mempermudah pengelolaan layanan akademik, ketarunaan, administrasi, keuangan, perpustakaan, serta pengawasan kampus. Portal ini menyediakan satu akses pusat bagi mahasiswa, dosen, dan staf untuk memperoleh informasi penting dengan antarmuka yang responsif dan user-friendly.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://smartcampus.poltradabali.ac.id/",
     dad: "100",
   },
   {
     id: 2,
     image: Proyek2,
-    title: "IoT Air Quality Monitoring",
-    subtitle: "A smart IoT system designed to measure and analyze air quality...",
-    fullDescription:"A smart IoT system designed to measure and analyze air quality using sensors connected to a mobile application. The app provides real-time updates on air quality levels, empowering users to make healthier lifestyle decisions based on environmental conditions. This project showcases the potential of IoT in addressing environmental and public health issues.",
+    title: "E-Library",
+    subtitle: "Perpustakaan PPI Madiun & POLTRADA Bali adalah fasilitas perpustaka...",
+    fullDescription:"Perpustakaan PPI Madiun & POLTRADA Bali adalah fasilitas perpustakaan yang menyediakan layanan sirkulasi, keanggotaan, koleksi jurnal & majalah, dan pustaka bebas. Tersedia pula fasilitas multimedia untuk mendukung penelitian dan belajar mahasiswa & dosen. Dengan akses digital (e-library) dan koleksi fisik yang lengkap, perpustakaan ini mendukung proses akademik agar lebih mudah, cepat, dan nyaman.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://perpustakaan.ppi.ac.id",
     dad: "200",
   },
   {
     id: 3,
     image: Proyek3,
-    title: "IoT Heartbeat Monitoring System",
-    subtitle: "An IoT-based healthcare project developed to measure and monitor...",
-    fullDescription:"An IoT-based healthcare project developed to measure and monitor heart rate in real-time. The system connects sensors to a local web server, enabling users and healthcare providers to track data directly from a web interface. This project highlights the integration of hardware and software to create efficient medical solutions that can be applied in local clinics or personal health monitoring.",
+    title: "Asset Management",
+    subtitle: "Aset PPI Madiun & POLTRADA Bali adalah sistem pengelolaan inventaris ...",
+    fullDescription:"Aset PPI Madiun & POLTRADA Bali adalah sistem pengelolaan inventaris dan aset PPI Madiun & POLTRADA Bali. Melalui portal ini, anggota kampus dapat melihat, memesan, dan memonitor penggunaan aset secara digital — mulai dari ruang kelas, peralatan, sampai fasilitas lain. Dengan antarmuka yang terorganisir dan akses terpusat, sistem ini meningkatkan transparansi penggunaan aset dan efisiensi operasional institusi.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://aset.ppi.ac.id/login",
     dad: "300",
   },
   {
     id: 4,
     image: Proyek4,
-    title: "Personal Web Portfolio",
-    subtitle: "An interactive web portfolio showcasing my professional journey...",
-    fullDescription:"An interactive web portfolio showcasing my professional journey, skills, and projects. Designed with a clean yet modern aesthetic, the portfolio highlights my technical expertise in web development, software engineering, and IoT. The site also serves as a central hub for potential employers and collaborators to explore my works, reflecting both my creativity and technical precision.",
+    title: "Rental Application",
+    subtitle: "SIBLU PPI Madiun & POLTRADA Bali adalah sistem digital untuk layanan...",
+    fullDescription:"SIBLU PPI Madiun & POLTRADA Bali adalah sistem digital untuk layanan rental kampus yang memungkinkan mahasiswa, dosen, dan staf memesan & menggunakan fasilitas kampus seperti kendaraan, ruangan, atau peralatan pendukung lainnya. Melalui portal ini, pengguna dapat melihat ketersediaan aset rental, membuat reservasi, dan memonitor status penggunaan secara transparan. Dengan antarmuka terpusat, sistem ini mendukung efisiensi operasional dan meningkatkan kenyamanan dalam pemanfaatan sumber daya kampus.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://siblu.poltradabali.ac.id",
     dad: "400",
   },
     {
     id: 5,
     image: Proyek5,
-    title: "Color Blindness Detection App",
-    subtitle: "A cross-platform application available on both mobile and desktop...",
-    fullDescription:"A cross-platform application available on both mobile and desktop, created to help identify different types of color blindness through color recognition tests. The app provides users with instant results, making it useful for educational, medical, and self-assessment purposes. Its intuitive design and accessibility aim to support individuals in understanding and managing color vision deficiencies.",
+    title: "Student Tracking",
+    subtitle: "Tracking Taruna PPI Madiun & POLTRADA Bali adalah sistem berbasis ...",
+    fullDescription:"Tracking Taruna PPI Madiun & POLTRADA Bali adalah sistem berbasis web dengan dukungan geolocation untuk memantau lokasi, aktivitas, dan data akademik taruna secara terintegrasi dan real-time.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://trackingtaruna.ppi.ac.id/",
     dad: "500",
   },
   {
     id: 6,
     image: Proyek6,
-    title: "Coffee Shop Website",
-    subtitle: "A fully functional website designed for a coffee shop, enabling...",
-    fullDescription:"A fully functional website designed for a coffee shop, enabling customers to explore the menu, learn about the shop’s story, and place orders online. The project focused on creating an attractive and modern interface, integrating responsive design for mobile and desktop, and ensuring smooth navigation for users. This website not only improved customer experience but also supported the coffee shop’s digital presence and business growth.",
+    title: "Portal BLU",
+    subtitle: "UJIDJKA adalah portal layanan online Balai Pengujian Perkeretaapian ...",
+    fullDescription:"UJIDJKA adalah portal layanan online Balai Pengujian Perkeretaapian Kementerian Perhubungan yang menyediakan informasi pengujian sarana dan prasarana perkeretaapian, serta kompetensi SDM. Portal ini memfasilitasi transparansi regulasi, publikasi, dan data teknis pengujian dalam satu akses publik.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://ujidjka.kemenhub.go.id/",
+    dad: "600",
+  },
+  {
+    id: 7,
+    image: Proyek7,
+    title: "Railroad Crossing Map",
+    subtitle: "Peta digital perlintasan sebidang kereta api...",
+    fullDescription:"Peta digital perlintasan sebidang kereta api. Berbasis web dan geolocation, sehingga pengguna bisa melihat posisi perlintasan secara real-time fungsinya untuk identifikasi lokasi perlintasan resmi maupun liar, mendukung keselamatan dengan memberi informasi titik rawan kecelakaan serta memonitoring & analisa kepadatan kendaraan di sekitar perlintasan.",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(180deg, #10B981, #000)",
+    url: "",
+    dad: "600",
+  },
+  {
+    id: 8,
+    image: Proyek8,
+    title: "App Vehicle Weighing",
+    subtitle: "Peta digital perlintasan sebidang kereta api...",
+    fullDescription:"Peta digital perlintasan sebidang kereta api. Berbasis web dan geolocation, sehingga pengguna bisa melihat posisi perlintasan secara real-time fungsinya untuk identifikasi lokasi perlintasan resmi maupun liar, mendukung keselamatan dengan memberi informasi titik rawan kecelakaan serta memonitoring & analisa kepadatan kendaraan di sekitar perlintasan.",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(180deg, #10B981, #000)",
+    url: "",
+    dad: "600",
+  },
+  {
+    id: 9,
+    image: Proyek9,
+    title: "App Streaming CCTV Online",
+    subtitle: "Peta digital perlintasan sebidang kereta api...",
+    fullDescription:"Peta digital perlintasan sebidang kereta api. Berbasis web dan geolocation, sehingga pengguna bisa melihat posisi perlintasan secara real-time fungsinya untuk identifikasi lokasi perlintasan resmi maupun liar, mendukung keselamatan dengan memberi informasi titik rawan kecelakaan serta memonitoring & analisa kepadatan kendaraan di sekitar perlintasan.",
+    borderColor: "#3B82F6",
+    gradient: "linear-gradient(180deg, #10B981, #000)",
+    url: "",
     dad: "600",
   },
 ];
